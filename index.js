@@ -8,7 +8,7 @@ const PORT = 3001;
 
 // Middleware for CORS
 app.use(cors({
-  origin: "https://margrosgames.vercel.app/", // Allow requests only from https://margrosgames.vercel.app/
+  origin: "https://margrosgames.vercel.app/register", // Allow requests only from https://margrosgames.vercel.app/
   methods: "GET,POST,PUT,DELETE", // Allow specific HTTP methods
   allowedHeaders: "Content-Type, Authorization", // Allow specific headers
 }));
