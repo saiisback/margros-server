@@ -19,4 +19,4 @@ app.use(bodyParser.json());
 // Routes
 app.use('/api', userRoutes);
 
-app.listen(PORT, () => console.log(`Server running on  https://margrosgames.vercel.app/`));
+app.listen(PORT, () => console.log(`Server running on  https://margrosgames.vercel.app/${PORT}`));
