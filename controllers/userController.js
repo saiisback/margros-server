@@ -17,7 +17,7 @@ export const registerUser = async (req, res) => {
              return res.status(400).json({ error: error.message });}
 
         // Generate game link
-        const gameLink = `https://margros-server.vercel.app/api/validate-token?token=${token}`;
+        const gameLink = `https://margros-server-ltja38lqd-saiisbacks-projects.vercel.app/api/validate-token?token=${token}`;
 
         // Send game link via SMS using Fast2SMS
         const message =
